@@ -30,7 +30,7 @@
 ### 权限管理
 * Spring Security+JWT (可以细化到url的权限管理)
 ---
-#### 关键代码
+#### 关键代码1111
     //在身份验证前添加token验证
     http.addFilterBefore(jwtAuthenticationTokenFilter,UsernamePasswordAuthenticationFilter.class);
     //替换身份验证过滤器
